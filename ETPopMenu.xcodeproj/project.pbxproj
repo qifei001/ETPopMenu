@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963A42932C44BB0500329697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42922C44BB0500329697 /* AppDelegate.m */; };
+		963A42962C44BB0500329697 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42952C44BB0500329697 /* SceneDelegate.m */; };
+		963A42992C44BB0500329697 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42982C44BB0500329697 /* ViewController.m */; };
+		963A429C2C44BB0500329697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963A429A2C44BB0500329697 /* Main.storyboard */; };
+		963A429E2C44BB0900329697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963A429D2C44BB0900329697 /* Assets.xcassets */; };
+		963A42A12C44BB0900329697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963A429F2C44BB0900329697 /* LaunchScreen.storyboard */; };
+		963A42A42C44BB0900329697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42A32C44BB0900329697 /* main.m */; };
+		963A42AF2C44BC5B00329697 /* ETHaptics.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42AE2C44BC5B00329697 /* ETHaptics.m */; };
+		963A42B22C44BF1400329697 /* ETPopMenuGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42B12C44BF1400329697 /* ETPopMenuGradientView.m */; };
+		963A42B82C44C30A00329697 /* UIColor+ETContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42B72C44C30A00329697 /* UIColor+ETContrast.m */; };
+		963A42BB2C44C48400329697 /* UIView+ETShadows.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42BA2C44C48400329697 /* UIView+ETShadows.m */; };
+		963A42BE2C44C4E800329697 /* ETPopMenuAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42BD2C44C4E800329697 /* ETPopMenuAppearance.m */; };
+		963A42C12C44CE5900329697 /* ETPopMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42C02C44CE5900329697 /* ETPopMenuManager.m */; };
+		963A42C52C44D15F00329697 /* ETPopMenuDismissAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42C42C44D15F00329697 /* ETPopMenuDismissAnimationController.m */; };
+		963A42C82C44D28500329697 /* ETPopMenuPresentAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42C72C44D28500329697 /* ETPopMenuPresentAnimationController.m */; };
+		963A42CC2C44D3A400329697 /* ETPopMenuAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42CB2C44D3A400329697 /* ETPopMenuAction.m */; };
+		963A42CF2C44FA6300329697 /* ETPopMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A42CE2C44FA6300329697 /* ETPopMenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		963A428E2C44BB0500329697 /* ETPopMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETPopMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963A42912C44BB0500329697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		963A42922C44BB0500329697 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		963A42942C44BB0500329697 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		963A42952C44BB0500329697 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		963A42972C44BB0500329697 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		963A42982C44BB0500329697 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		963A429B2C44BB0500329697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963A429D2C44BB0900329697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963A42A02C44BB0900329697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		963A42A22C44BB0900329697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963A42A32C44BB0900329697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		963A42AD2C44BC5B00329697 /* ETHaptics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETHaptics.h; sourceTree = "<group>"; };
+		963A42AE2C44BC5B00329697 /* ETHaptics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETHaptics.m; sourceTree = "<group>"; };
+		963A42B02C44BF1400329697 /* ETPopMenuGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPopMenuGradientView.h; sourceTree = "<group>"; };
+		963A42B12C44BF1400329697 /* ETPopMenuGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPopMenuGradientView.m; sourceTree = "<group>"; };
+		963A42B62C44C30A00329697 /* UIColor+ETContrast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ETContrast.h"; sourceTree = "<group>"; };
+		963A42B72C44C30A00329697 /* UIColor+ETContrast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ETContrast.m"; sourceTree = "<group>"; };
+		963A42B92C44C48400329697 /* UIView+ETShadows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ETShadows.h"; sourceTree = "<group>"; };
+		963A42BA2C44C48400329697 /* UIView+ETShadows.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ETShadows.m"; sourceTree = "<group>"; };
+		963A42BC2C44C4E800329697 /* ETPopMenuAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPopMenuAppearance.h; sourceTree = "<group>"; };
+		963A42BD2C44C4E800329697 /* ETPopMenuAppearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPopMenuAppearance.m; sourceTree = "<group>"; };
+		963A42BF2C44CE5900329697 /* ETPopMenuManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPopMenuManager.h; sourceTree = "<group>"; };
+		963A42C02C44CE5900329697 /* ETPopMenuManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPopMenuManager.m; sourceTree = "<group>"; };
+		963A42C32C44D15F00329697 /* ETPopMenuDismissAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPopMenuDismissAnimationController.h; sourceTree = "<group>"; };
+		963A42C42C44D15F00329697 /* ETPopMenuDismissAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPopMenuDismissAnimationController.m; sourceTree = "<group>"; };
+		963A42C62C44D28500329697 /* ETPopMenuPresentAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPopMenuPresentAnimationController.h; sourceTree = "<group>"; };
+		963A42C72C44D28500329697 /* ETPopMenuPresentAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPopMenuPresentAnimationController.m; sourceTree = "<group>"; };
+		963A42CA2C44D3A400329697 /* ETPopMenuAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPopMenuAction.h; sourceTree = "<group>"; };
+		963A42CB2C44D3A400329697 /* ETPopMenuAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPopMenuAction.m; sourceTree = "<group>"; };
+		963A42CD2C44FA6300329697 /* ETPopMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPopMenuViewController.h; sourceTree = "<group>"; };
+		963A42CE2C44FA6300329697 /* ETPopMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPopMenuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963A428B2C44BB0500329697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963A42852C44BB0500329697 = {
+			isa = PBXGroup;
+			children = (
+				963A42902C44BB0500329697 /* ETPopMenu */,
+				963A428F2C44BB0500329697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963A428F2C44BB0500329697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963A428E2C44BB0500329697 /* ETPopMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963A42902C44BB0500329697 /* ETPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				963A42AA2C44BB1600329697 /* ETPopMenu */,
+				963A42912C44BB0500329697 /* AppDelegate.h */,
+				963A42922C44BB0500329697 /* AppDelegate.m */,
+				963A42942C44BB0500329697 /* SceneDelegate.h */,
+				963A42952C44BB0500329697 /* SceneDelegate.m */,
+				963A42972C44BB0500329697 /* ViewController.h */,
+				963A42982C44BB0500329697 /* ViewController.m */,
+				963A429A2C44BB0500329697 /* Main.storyboard */,
+				963A429D2C44BB0900329697 /* Assets.xcassets */,
+				963A429F2C44BB0900329697 /* LaunchScreen.storyboard */,
+				963A42A22C44BB0900329697 /* Info.plist */,
+				963A42A32C44BB0900329697 /* main.m */,
+			);
+			path = ETPopMenu;
+			sourceTree = "<group>";
+		};
+		963A42AA2C44BB1600329697 /* ETPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				963A42C92C44D36100329697 /* View Controller & Views */,
+				963A42C22C44D14400329697 /* Transitions */,
+				963A42AB2C44BB3C00329697 /* Classes */,
+			);
+			path = ETPopMenu;
+			sourceTree = "<group>";
+		};
+		963A42AB2C44BB3C00329697 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				963A42AC2C44BB5F00329697 /* Helpers */,
+				963A42BC2C44C4E800329697 /* ETPopMenuAppearance.h */,
+				963A42BD2C44C4E800329697 /* ETPopMenuAppearance.m */,
+				963A42BF2C44CE5900329697 /* ETPopMenuManager.h */,
+				963A42C02C44CE5900329697 /* ETPopMenuManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		963A42AC2C44BB5F00329697 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				963A42AD2C44BC5B00329697 /* ETHaptics.h */,
+				963A42AE2C44BC5B00329697 /* ETHaptics.m */,
+				963A42B02C44BF1400329697 /* ETPopMenuGradientView.h */,
+				963A42B12C44BF1400329697 /* ETPopMenuGradientView.m */,
+				963A42B62C44C30A00329697 /* UIColor+ETContrast.h */,
+				963A42B72C44C30A00329697 /* UIColor+ETContrast.m */,
+				963A42B92C44C48400329697 /* UIView+ETShadows.h */,
+				963A42BA2C44C48400329697 /* UIView+ETShadows.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		963A42C22C44D14400329697 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				963A42C32C44D15F00329697 /* ETPopMenuDismissAnimationController.h */,
+				963A42C42C44D15F00329697 /* ETPopMenuDismissAnimationController.m */,
+				963A42C62C44D28500329697 /* ETPopMenuPresentAnimationController.h */,
+				963A42C72C44D28500329697 /* ETPopMenuPresentAnimationController.m */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		963A42C92C44D36100329697 /* View Controller & Views */ = {
+			isa = PBXGroup;
+			children = (
+				963A42CA2C44D3A400329697 /* ETPopMenuAction.h */,
+				963A42CB2C44D3A400329697 /* ETPopMenuAction.m */,
+				963A42CD2C44FA6300329697 /* ETPopMenuViewController.h */,
+				963A42CE2C44FA6300329697 /* ETPopMenuViewController.m */,
+			);
+			path = "View Controller & Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963A428D2C44BB0500329697 /* ETPopMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963A42A72C44BB0900329697 /* Build configuration list for PBXNativeTarget "ETPopMenu" */;
+			buildPhases = (
+				963A428A2C44BB0500329697 /* Sources */,
+				963A428B2C44BB0500329697 /* Frameworks */,
+				963A428C2C44BB0500329697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETPopMenu;
+			productName = ETPopMenu;
+			productReference = 963A428E2C44BB0500329697 /* ETPopMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963A42862C44BB0500329697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					963A428D2C44BB0500329697 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 963A42892C44BB0500329697 /* Build configuration list for PBXProject "ETPopMenu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963A42852C44BB0500329697;
+			productRefGroup = 963A428F2C44BB0500329697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963A428D2C44BB0500329697 /* ETPopMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963A428C2C44BB0500329697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963A42A12C44BB0900329697 /* LaunchScreen.storyboard in Resources */,
+				963A429E2C44BB0900329697 /* Assets.xcassets in Resources */,
+				963A429C2C44BB0500329697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963A428A2C44BB0500329697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963A42BE2C44C4E800329697 /* ETPopMenuAppearance.m in Sources */,
+				963A42BB2C44C48400329697 /* UIView+ETShadows.m in Sources */,
+				963A42992C44BB0500329697 /* ViewController.m in Sources */,
+				963A42B82C44C30A00329697 /* UIColor+ETContrast.m in Sources */,
+				963A42932C44BB0500329697 /* AppDelegate.m in Sources */,
+				963A42A42C44BB0900329697 /* main.m in Sources */,
+				963A42962C44BB0500329697 /* SceneDelegate.m in Sources */,
+				963A42C82C44D28500329697 /* ETPopMenuPresentAnimationController.m in Sources */,
+				963A42C52C44D15F00329697 /* ETPopMenuDismissAnimationController.m in Sources */,
+				963A42AF2C44BC5B00329697 /* ETHaptics.m in Sources */,
+				963A42C12C44CE5900329697 /* ETPopMenuManager.m in Sources */,
+				963A42CC2C44D3A400329697 /* ETPopMenuAction.m in Sources */,
+				963A42B22C44BF1400329697 /* ETPopMenuGradientView.m in Sources */,
+				963A42CF2C44FA6300329697 /* ETPopMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		963A429A2C44BB0500329697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963A429B2C44BB0500329697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963A429F2C44BB0900329697 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963A42A02C44BB0900329697 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963A42A52C44BB0900329697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		963A42A62C44BB0900329697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963A42A82C44BB0900329697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5BCW27UK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ETPopMenu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuqifei.ETPopMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		963A42A92C44BB0900329697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5BCW27UK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ETPopMenu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuqifei.ETPopMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963A42892C44BB0500329697 /* Build configuration list for PBXProject "ETPopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963A42A52C44BB0900329697 /* Debug */,
+				963A42A62C44BB0900329697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963A42A72C44BB0900329697 /* Build configuration list for PBXNativeTarget "ETPopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963A42A82C44BB0900329697 /* Debug */,
+				963A42A92C44BB0900329697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963A42862C44BB0500329697 /* Project object */;
+}
